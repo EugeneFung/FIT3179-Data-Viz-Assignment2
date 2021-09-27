@@ -1,8 +1,9 @@
-"","Var1","Freq"
-"1","ACT",16831
-"2","NSW",135477
-"3","NT",2
-"4","QLD",51002
-"5","SA",48791
-"6","VIC",174162
-"7","WA",63574
+state,count
+Australian Capital Territory,16831
+New South Wales,135477
+Northern Territory,2
+Queensland,51002
+South Australia,48791
+Victoria,174162
+Western Australia,63574
+Tasmania,0
