@@ -1,509 +1,509 @@
-suburb,count
-Abbotsford,443
-Aberfeldie,114
-Aintree,209
-Airport West,361
-Albanvale,137
-Albert Park,258
-Albion,195
-Alphington,173
-Altona,575
-Altona Meadows,484
-Altona North,561
-Ardeer,124
-Armadale,448
-Arthurs Creek,7
-Arthurs Seat,23
-Ascot Vale,573
-Ashburton,257
-Ashwood,241
-Aspendale,288
-Aspendale Gardens,110
-Attwood,67
-Avondale Heights,335
-Avonsleigh,35
-Badger Creek,34
-Balaclava,176
-Balnarring,92
-Balnarring Beach,31
-Balwyn,525
-Balwyn North,710
-Bangholme,5
-Baxter,86
-Bayles,4
-Bayswater,515
-Bayswater North,374
-Beaconsfield,283
-Beaconsfield Upper,64
-Beaumaris,549
-Belgrave,166
-Belgrave Heights,43
-Belgrave South,37
-Bellfield,68
-Bend Of Islands,10
-Bentleigh,783
-Bentleigh East,1145
-Berwick,1797
-Big Pats Creek,6
-Bittern,170
-Black Rock,268
-Blackburn,568
-Blackburn North,263
-Blackburn South,309
-Blairgowrie,340
-Blind Bight,48
-Bonbeach,384
-Bonnie Brook,1
-Boronia,1024
-Botanic Ridge,281
-Box Hill,487
-Box Hill North,437
-Box Hill South,336
-Braybrook,278
-Briar Hill,128
-Brighton,1026
-Brighton East,602
-Broadmeadows,351
-Brookfield,368
-Brooklyn,131
-Brunswick,1049
-Brunswick East,594
-Brunswick West,564
-Bulla,11
-Bulleen,393
-Bundoora,817
-Bunyip,92
-Burnley,4
-Burnside,100
-Burnside Heights,138
-Burwood,499
-Burwood East,281
-Cairnlea,162
-Caldermeade,1
-Camberwell,686
-Campbellfield,80
-Cannons Creek,25
-Canterbury,269
-Cape Schanck,39
-Capel Sound,307
-Cardinia,6
-Carlton,514
-Carlton North,228
-Carnegie,726
-Caroline Springs,723
-Carrum,252
-Carrum Downs,1021
-Catani,3
-Caulfield,195
-Caulfield East,53
-Caulfield North,498
-Caulfield South,393
-Chadstone,346
-Chelsea,475
-Chelsea Heights,172
-Cheltenham,953
-Chirnside Park,423
-Christmas Hills,6
-Chum Creek,19
-Clarinda,165
-Clayton,523
-Clayton South,380
-Clematis,16
-Clifton Hill,216
-Clyde,442
-Clyde North,1097
-Cobblebank,85
-Coburg,899
-Coburg North,300
-Cockatoo,176
-Coldstream,65
-Collingwood,439
-Coolaroo,62
-Cora Lynn,3
-Cottles Bridge,9
-Craigieburn,2202
-Cranbourne,817
-Cranbourne East,726
-Cranbourne North,867
-Cranbourne South,43
-Cranbourne West,758
-Cremorne,15
-Crib Point,171
-Croydon,1341
-Croydon Hills,133
-Croydon North,323
-Croydon South,193
-Dallas,164
-Dalmore,1
-Dandenong,902
-Dandenong North,557
-Deanside,42
-Deepdene,43
-Deer Park,558
-Delahey,195
-Derrimut,195
-Devon Meadows,22
-Dewhurst,2
-Diamond Creek,426
-Diggers Rest,178
-Dingley Village,263
-Dixons Creek,4
-Docklands,849
-Don Valley,13
-Doncaster,992
-Doncaster East,1017
-Donnybrook,72
-Donvale,433
-Doreen,1137
-Doveton,384
-Dromana,399
-Eaglemont,131
-East Melbourne,243
-East Warburton,48
-Eden Park,25
-Edithvale,340
-Elsternwick,418
-Eltham,647
-Eltham North,193
-Elwood,875
-Emerald,221
-Endeavour Hills,662
-Epping,944
-Essendon,846
-Essendon North,131
-Essendon West,51
-Eumemmerring,95
-Eynesbury,134
-Fairfield,251
-Fawkner,427
-Ferntree Gully,922
-Ferny Creek,64
-Fingal,68
-Fitzroy,414
-Fitzroy North,386
-Flemington,268
-Flinders,84
-Footscray,719
-Forest Hill,339
-Frankston,1977
-Frankston North,260
-Frankston South,808
-Fraser Rise,287
-Gardenvale,32
-Garfield,68
-Garfield North,2
-Gembrook,92
-Gilderoy,2
-Gladstone Park,212
-Gladysdale,5
-Glen Huntly,206
-Glen Iris,955
-Glen Waverley,1271
-Glenroy,925
-Gowanbrae,77
-Greensborough,793
-Greenvale,570
-Gruyere,16
-Guys Hill,9
-Hadfield,298
-Hallam,294
-Hampton,585
-Hampton East,238
-Hampton Park,775
-Harkaway,28
-Harkness,512
-Hastings,539
-Hawthorn,994
-Hawthorn East,599
-Healesville,338
-Heatherton,96
-Heathmont,348
-Heidelberg,277
-Heidelberg Heights,334
-Heidelberg West,234
-Highett,613
-Hillside,447
-Hoddles Creek,14
-Hoppers Crossing,1108
-Hughesdale,220
-Humevale,3
-Huntingdale,59
-Hurstbridge,100
-Iona,2
-Ivanhoe,442
-Ivanhoe East,122
-Jacana,85
-Junction Village,38
-Kalkallo,242
-Kallista,46
-Kalorama,62
-Kangaroo Ground,29
-Kealba,65
-Keilor,143
-Keilor Downs,187
-Keilor East,476
-Keilor Lodge,4
-Keilor North,1
-Keilor Park,54
-Kensington,491
-Kew,872
-Kew East,218
-Keysborough,848
-Kilsyth,585
-Kilsyth South,54
-Kings Park,171
-Kingsbury,91
-Kingsville,184
-Knoxfield,275
-Koo Wee Rup,154
-Kooyong,33
-Kurunjang,406
-Lalor,579
-Lang Lang,91
-Lang Lang East,2
-Langwarrin,1022
-Langwarrin South,19
-Launching Place,86
-Laverton,272
-Lilydale,700
-Little River,21
-Lower Plenty,159
-Lynbrook,192
-Lyndhurst,268
-Lysterfield,144
-Lysterfield South,14
-Macclesfield,17
-Macleod,355
-Maidstone,376
-Main Ridge,16
-Malvern,406
-Malvern East,763
-Mambourin,9
-Manor Lakes,382
-Maribyrnong,499
-Maryknoll,7
-McCrae,222
-McKinnon,194
-McMahons Creek,10
-Meadow Heights,301
-Melbourne,1848
-Melton,440
-Melton South,636
-Melton West,428
-Mentone,551
-Menzies Creek,28
-Mernda,901
-Merricks,4
-Merricks Beach,13
-Merricks North,14
-Mickleham,771
-Middle Park,163
-Mill Park,715
-Millgrove,98
-Mitcham,639
-Monbulk,142
-Monomeith,1
-Mont Albert,151
-Mont Albert North,211
-Montmorency,375
-Montrose,207
-Moonee Ponds,530
-Moorabbin,257
-Moorooduc,6
-Mooroolbark,844
-Mordialloc,374
-Mornington,1424
-Mount Burnett,6
-Mount Cottrell,2
-Mount Dandenong,60
-Mount Eliza,835
-Mount Evelyn,317
-Mount Martha,980
-Mount Toolebewong,1
-Mount Waverley,1260
-Mulgrave,556
-Murrumbeena,376
-Nar Nar Goon,19
-Nar Nar Goon North,12
-Narre Warren,878
-Narre Warren East,9
-Narre Warren North,128
-Narre Warren South,882
-Newport,553
-Niddrie,259
-Noble Park,932
-Noble Park North,145
-North Melbourne,519
-North Warrandyte,105
-Northcote,988
-Notting Hill,105
-Nunawading,399
-Nutfield,2
-Oak Park,294
-Oaklands Junction,3
-Oakleigh,224
-Oakleigh East,221
-Oakleigh South,302
-Officer,926
-Officer South,14
-Olinda,64
-Ormond,311
-Pakenham,2620
-Pakenham South,3
-Pakenham Upper,19
-Panton Hill,17
-Park Orchards,95
-Parkdale,476
-Parkville,145
-Pascoe Vale,760
-Pascoe Vale South,302
-Patterson Lakes,337
-Pearcedale,100
-Plenty,51
-Plumpton,60
-Point Cook,2118
-Point Leo,2
-Port Melbourne,885
-Portsea,124
-Powelltown,8
-Prahran,886
-Preston,1223
-Princes Hill,3
-Red Hill,51
-Red Hill South,10
-Reefton,4
-Research,95
-Reservoir,1806
-Richmond,1399
-Ringwood,820
-Ringwood East,442
-Ringwood North,311
-Ripponlea,56
-Rockbank,128
-Rosanna,300
-Rosebud,1084
-Rowville,848
-Roxburgh Park,570
-Rye,872
-Rythdale,1
-Safety Beach,471
-Sandhurst,220
-Sandringham,483
-Sassafras,37
-Scoresby,153
-Seabrook,153
-Seaford,868
-Seaholme,71
-Seddon,250
-Selby,57
-Seville,72
-Seville East,29
-Sherbrooke,12
-Shoreham,24
-Silvan,33
-Skye,300
-Smiths Gully,8
-Somers,114
-Somerville,451
-Sorrento,283
-South Kingsville,124
-South Melbourne,556
-South Morang,714
-South Wharf,1
-South Yarra,1297
-Southbank,1189
-Spotswood,107
-Springvale,399
-Springvale South,201
-St Albans,904
-St Andrews,30
-St Andrews Beach,66
-St Helena,80
-St Kilda,1233
-St Kilda East,673
-St Kilda West,160
-Steels Creek,7
-Strathewen,5
-Strathmore,333
-Strathmore Heights,29
-Strathtulloh,42
-Sunbury,1560
-Sunshine,337
-Sunshine North,309
-Sunshine West,456
-Surrey Hills,475
-Sydenham,293
-Tarneit,1826
-Tarrawarra,1
-Taylors Hill,323
-Taylors Lakes,251
-Tecoma,73
-Templestowe,518
-Templestowe Lower,453
-The Basin,120
-The Patch,33
-Thomastown,461
-Thornbury,695
-Thornhill Park,112
-Three Bridges,5
-Toolangi,7
-Toolern Vale,14
-Tooradin,36
-Toorak,682
-Tootgarook,228
-Travancore,138
-Tremont,4
-Truganina,1053
-Tuerong,1
-Tullamarine,227
-Tyabb,109
-Tynong,12
-Tynong North,6
-Upper Ferntree Gully,113
-Upwey,224
-Vermont,318
-Vermont South,286
-Viewbank,191
-Wandin East,7
-Wandin North,99
-Wantirna,381
-Wantirna South,519
-Warburton,103
-Warneet,32
-Warrandyte,153
-Warrandyte South,18
-Warranwood,119
-Waterways,47
-Watsonia,211
-Watsonia North,99
-Watsons Creek,2
-Wattle Glen,60
-Weir Views,102
-Werribee,1706
-Werribee South,61
-Wesburn,26
-West Footscray,477
-West Melbourne,281
-Westmeadows,237
-Wheelers Hill,454
-Whittlesea,253
-Wildwood,1
-Williams Landing,273
-Williamstown,586
-Williamstown North,17
-Windsor,207
-Wollert,1156
-Wonga Park,79
-Woodstock,2
-Woori Yallock,111
-Wyndham Vale,783
-Yallambie,91
-Yan Yean,6
-Yannathan,2
-Yarra Glen,104
-Yarra Junction,121
-Yarrambat,32
-Yarraville,630
-Yellingbo,10
-Yering,1
-Yuroke,1
+SUBURB,suburb,count
+ABBOTSFORD,Abbotsford,443
+ABERFELDIE,Aberfeldie,114
+AINTREE,Aintree,209
+AIRPORT WEST,Airport West,361
+ALBANVALE,Albanvale,137
+ALBERT PARK,Albert Park,258
+ALBION,Albion,195
+ALPHINGTON,Alphington,173
+ALTONA,Altona,575
+ALTONA MEADOWS,Altona Meadows,484
+ALTONA NORTH,Altona North,561
+ARDEER,Ardeer,124
+ARMADALE,Armadale,448
+ARTHURS CREEK,Arthurs Creek,7
+ARTHURS SEAT,Arthurs Seat,23
+ASCOT VALE,Ascot Vale,573
+ASHBURTON,Ashburton,257
+ASHWOOD,Ashwood,241
+ASPENDALE,Aspendale,288
+ASPENDALE GARDENS,Aspendale Gardens,110
+ATTWOOD,Attwood,67
+AVONDALE HEIGHTS,Avondale Heights,335
+AVONSLEIGH,Avonsleigh,35
+BADGER CREEK,Badger Creek,34
+BALACLAVA,Balaclava,176
+BALNARRING,Balnarring,92
+BALNARRING BEACH,Balnarring Beach,31
+BALWYN,Balwyn,525
+BALWYN NORTH,Balwyn North,710
+BANGHOLME,Bangholme,5
+BAXTER,Baxter,86
+BAYLES,Bayles,4
+BAYSWATER,Bayswater,515
+BAYSWATER NORTH,Bayswater North,374
+BEACONSFIELD,Beaconsfield,283
+BEACONSFIELD UPPER,Beaconsfield Upper,64
+BEAUMARIS,Beaumaris,549
+BELGRAVE,Belgrave,166
+BELGRAVE HEIGHTS,Belgrave Heights,43
+BELGRAVE SOUTH,Belgrave South,37
+BELLFIELD,Bellfield,68
+BEND OF ISLANDS,Bend Of Islands,10
+BENTLEIGH,Bentleigh,783
+BENTLEIGH EAST,Bentleigh East,1145
+BERWICK,Berwick,1797
+BIG PATS CREEK,Big Pats Creek,6
+BITTERN,Bittern,170
+BLACK ROCK,Black Rock,268
+BLACKBURN,Blackburn,568
+BLACKBURN NORTH,Blackburn North,263
+BLACKBURN SOUTH,Blackburn South,309
+BLAIRGOWRIE,Blairgowrie,340
+BLIND BIGHT,Blind Bight,48
+BONBEACH,Bonbeach,384
+BONNIE BROOK,Bonnie Brook,1
+BORONIA,Boronia,1024
+BOTANIC RIDGE,Botanic Ridge,281
+BOX HILL,Box Hill,487
+BOX HILL NORTH,Box Hill North,437
+BOX HILL SOUTH,Box Hill South,336
+BRAYBROOK,Braybrook,278
+BRIAR HILL,Briar Hill,128
+BRIGHTON,Brighton,1026
+BRIGHTON EAST,Brighton East,602
+BROADMEADOWS,Broadmeadows,351
+BROOKFIELD,Brookfield,368
+BROOKLYN,Brooklyn,131
+BRUNSWICK,Brunswick,1049
+BRUNSWICK EAST,Brunswick East,594
+BRUNSWICK WEST,Brunswick West,564
+BULLA,Bulla,11
+BULLEEN,Bulleen,393
+BUNDOORA,Bundoora,817
+BUNYIP,Bunyip,92
+BURNLEY,Burnley,4
+BURNSIDE,Burnside,100
+BURNSIDE HEIGHTS,Burnside Heights,138
+BURWOOD,Burwood,499
+BURWOOD EAST,Burwood East,281
+CAIRNLEA,Cairnlea,162
+CALDERMEADE,Caldermeade,1
+CAMBERWELL,Camberwell,686
+CAMPBELLFIELD,Campbellfield,80
+CANNONS CREEK,Cannons Creek,25
+CANTERBURY,Canterbury,269
+CAPE SCHANCK,Cape Schanck,39
+CAPEL SOUND,Capel Sound,307
+CARDINIA,Cardinia,6
+CARLTON,Carlton,514
+CARLTON NORTH,Carlton North,228
+CARNEGIE,Carnegie,726
+CAROLINE SPRINGS,Caroline Springs,723
+CARRUM,Carrum,252
+CARRUM DOWNS,Carrum Downs,1021
+CATANI,Catani,3
+CAULFIELD,Caulfield,195
+CAULFIELD EAST,Caulfield East,53
+CAULFIELD NORTH,Caulfield North,498
+CAULFIELD SOUTH,Caulfield South,393
+CHADSTONE,Chadstone,346
+CHELSEA,Chelsea,475
+CHELSEA HEIGHTS,Chelsea Heights,172
+CHELTENHAM,Cheltenham,953
+CHIRNSIDE PARK,Chirnside Park,423
+CHRISTMAS HILLS,Christmas Hills,6
+CHUM CREEK,Chum Creek,19
+CLARINDA,Clarinda,165
+CLAYTON,Clayton,523
+CLAYTON SOUTH,Clayton South,380
+CLEMATIS,Clematis,16
+CLIFTON HILL,Clifton Hill,216
+CLYDE,Clyde,442
+CLYDE NORTH,Clyde North,1097
+COBBLEBANK,Cobblebank,85
+COBURG,Coburg,899
+COBURG NORTH,Coburg North,300
+COCKATOO,Cockatoo,176
+COLDSTREAM,Coldstream,65
+COLLINGWOOD,Collingwood,439
+COOLAROO,Coolaroo,62
+CORA LYNN,Cora Lynn,3
+COTTLES BRIDGE,Cottles Bridge,9
+CRAIGIEBURN,Craigieburn,2202
+CRANBOURNE,Cranbourne,817
+CRANBOURNE EAST,Cranbourne East,726
+CRANBOURNE NORTH,Cranbourne North,867
+CRANBOURNE SOUTH,Cranbourne South,43
+CRANBOURNE WEST,Cranbourne West,758
+CREMORNE,Cremorne,15
+CRIB POINT,Crib Point,171
+CROYDON,Croydon,1341
+CROYDON HILLS,Croydon Hills,133
+CROYDON NORTH,Croydon North,323
+CROYDON SOUTH,Croydon South,193
+DALLAS,Dallas,164
+DALMORE,Dalmore,1
+DANDENONG,Dandenong,902
+DANDENONG NORTH,Dandenong North,557
+DEANSIDE,Deanside,42
+DEEPDENE,Deepdene,43
+DEER PARK,Deer Park,558
+DELAHEY,Delahey,195
+DERRIMUT,Derrimut,195
+DEVON MEADOWS,Devon Meadows,22
+DEWHURST,Dewhurst,2
+DIAMOND CREEK,Diamond Creek,426
+DIGGERS REST,Diggers Rest,178
+DINGLEY VILLAGE,Dingley Village,263
+DIXONS CREEK,Dixons Creek,4
+DOCKLANDS,Docklands,849
+DON VALLEY,Don Valley,13
+DONCASTER,Doncaster,992
+DONCASTER EAST,Doncaster East,1017
+DONNYBROOK,Donnybrook,72
+DONVALE,Donvale,433
+DOREEN,Doreen,1137
+DOVETON,Doveton,384
+DROMANA,Dromana,399
+EAGLEMONT,Eaglemont,131
+EAST MELBOURNE,East Melbourne,243
+EAST WARBURTON,East Warburton,48
+EDEN PARK,Eden Park,25
+EDITHVALE,Edithvale,340
+ELSTERNWICK,Elsternwick,418
+ELTHAM,Eltham,647
+ELTHAM NORTH,Eltham North,193
+ELWOOD,Elwood,875
+EMERALD,Emerald,221
+ENDEAVOUR HILLS,Endeavour Hills,662
+EPPING,Epping,944
+ESSENDON,Essendon,846
+ESSENDON NORTH,Essendon North,131
+ESSENDON WEST,Essendon West,51
+EUMEMMERRING,Eumemmerring,95
+EYNESBURY,Eynesbury,134
+FAIRFIELD,Fairfield,251
+FAWKNER,Fawkner,427
+FERNTREE GULLY,Ferntree Gully,922
+FERNY CREEK,Ferny Creek,64
+FINGAL,Fingal,68
+FITZROY,Fitzroy,414
+FITZROY NORTH,Fitzroy North,386
+FLEMINGTON,Flemington,268
+FLINDERS,Flinders,84
+FOOTSCRAY,Footscray,719
+FOREST HILL,Forest Hill,339
+FRANKSTON,Frankston,1977
+FRANKSTON NORTH,Frankston North,260
+FRANKSTON SOUTH,Frankston South,808
+FRASER RISE,Fraser Rise,287
+GARDENVALE,Gardenvale,32
+GARFIELD,Garfield,68
+GARFIELD NORTH,Garfield North,2
+GEMBROOK,Gembrook,92
+GILDEROY,Gilderoy,2
+GLADSTONE PARK,Gladstone Park,212
+GLADYSDALE,Gladysdale,5
+GLEN HUNTLY,Glen Huntly,206
+GLEN IRIS,Glen Iris,955
+GLEN WAVERLEY,Glen Waverley,1271
+GLENROY,Glenroy,925
+GOWANBRAE,Gowanbrae,77
+GREENSBOROUGH,Greensborough,793
+GREENVALE,Greenvale,570
+GRUYERE,Gruyere,16
+GUYS HILL,Guys Hill,9
+HADFIELD,Hadfield,298
+HALLAM,Hallam,294
+HAMPTON,Hampton,585
+HAMPTON EAST,Hampton East,238
+HAMPTON PARK,Hampton Park,775
+HARKAWAY,Harkaway,28
+HARKNESS,Harkness,512
+HASTINGS,Hastings,539
+HAWTHORN,Hawthorn,994
+HAWTHORN EAST,Hawthorn East,599
+HEALESVILLE,Healesville,338
+HEATHERTON,Heatherton,96
+HEATHMONT,Heathmont,348
+HEIDELBERG,Heidelberg,277
+HEIDELBERG HEIGHTS,Heidelberg Heights,334
+HEIDELBERG WEST,Heidelberg West,234
+HIGHETT,Highett,613
+HILLSIDE,Hillside,447
+HODDLES CREEK,Hoddles Creek,14
+HOPPERS CROSSING,Hoppers Crossing,1108
+HUGHESDALE,Hughesdale,220
+HUMEVALE,Humevale,3
+HUNTINGDALE,Huntingdale,59
+HURSTBRIDGE,Hurstbridge,100
+IONA,Iona,2
+IVANHOE,Ivanhoe,442
+IVANHOE EAST,Ivanhoe East,122
+JACANA,Jacana,85
+JUNCTION VILLAGE,Junction Village,38
+KALKALLO,Kalkallo,242
+KALLISTA,Kallista,46
+KALORAMA,Kalorama,62
+KANGAROO GROUND,Kangaroo Ground,29
+KEALBA,Kealba,65
+KEILOR,Keilor,143
+KEILOR DOWNS,Keilor Downs,187
+KEILOR EAST,Keilor East,476
+KEILOR LODGE,Keilor Lodge,4
+KEILOR NORTH,Keilor North,1
+KEILOR PARK,Keilor Park,54
+KENSINGTON,Kensington,491
+KEW,Kew,872
+KEW EAST,Kew East,218
+KEYSBOROUGH,Keysborough,848
+KILSYTH,Kilsyth,585
+KILSYTH SOUTH,Kilsyth South,54
+KINGS PARK,Kings Park,171
+KINGSBURY,Kingsbury,91
+KINGSVILLE,Kingsville,184
+KNOXFIELD,Knoxfield,275
+KOO WEE RUP,Koo Wee Rup,154
+KOOYONG,Kooyong,33
+KURUNJANG,Kurunjang,406
+LALOR,Lalor,579
+LANG LANG,Lang Lang,91
+LANG LANG EAST,Lang Lang East,2
+LANGWARRIN,Langwarrin,1022
+LANGWARRIN SOUTH,Langwarrin South,19
+LAUNCHING PLACE,Launching Place,86
+LAVERTON,Laverton,272
+LILYDALE,Lilydale,700
+LITTLE RIVER,Little River,21
+LOWER PLENTY,Lower Plenty,159
+LYNBROOK,Lynbrook,192
+LYNDHURST,Lyndhurst,268
+LYSTERFIELD,Lysterfield,144
+LYSTERFIELD SOUTH,Lysterfield South,14
+MACCLESFIELD,Macclesfield,17
+MACLEOD,Macleod,355
+MAIDSTONE,Maidstone,376
+MAIN RIDGE,Main Ridge,16
+MALVERN,Malvern,406
+MALVERN EAST,Malvern East,763
+MAMBOURIN,Mambourin,9
+MANOR LAKES,Manor Lakes,382
+MARIBYRNONG,Maribyrnong,499
+MARYKNOLL,Maryknoll,7
+MCCRAE,McCrae,222
+MCKINNON,McKinnon,194
+MCMAHONS CREEK,McMahons Creek,10
+MEADOW HEIGHTS,Meadow Heights,301
+MELBOURNE,Melbourne,1848
+MELTON,Melton,440
+MELTON SOUTH,Melton South,636
+MELTON WEST,Melton West,428
+MENTONE,Mentone,551
+MENZIES CREEK,Menzies Creek,28
+MERNDA,Mernda,901
+MERRICKS,Merricks,4
+MERRICKS BEACH,Merricks Beach,13
+MERRICKS NORTH,Merricks North,14
+MICKLEHAM,Mickleham,771
+MIDDLE PARK,Middle Park,163
+MILL PARK,Mill Park,715
+MILLGROVE,Millgrove,98
+MITCHAM,Mitcham,639
+MONBULK,Monbulk,142
+MONOMEITH,Monomeith,1
+MONT ALBERT,Mont Albert,151
+MONT ALBERT NORTH,Mont Albert North,211
+MONTMORENCY,Montmorency,375
+MONTROSE,Montrose,207
+MOONEE PONDS,Moonee Ponds,530
+MOORABBIN,Moorabbin,257
+MOOROODUC,Moorooduc,6
+MOOROOLBARK,Mooroolbark,844
+MORDIALLOC,Mordialloc,374
+MORNINGTON,Mornington,1424
+MOUNT BURNETT,Mount Burnett,6
+MOUNT COTTRELL,Mount Cottrell,2
+MOUNT DANDENONG,Mount Dandenong,60
+MOUNT ELIZA,Mount Eliza,835
+MOUNT EVELYN,Mount Evelyn,317
+MOUNT MARTHA,Mount Martha,980
+MOUNT TOOLEBEWONG,Mount Toolebewong,1
+MOUNT WAVERLEY,Mount Waverley,1260
+MULGRAVE,Mulgrave,556
+MURRUMBEENA,Murrumbeena,376
+NAR NAR GOON,Nar Nar Goon,19
+NAR NAR GOON NORTH,Nar Nar Goon North,12
+NARRE WARREN,Narre Warren,878
+NARRE WARREN EAST,Narre Warren East,9
+NARRE WARREN NORTH,Narre Warren North,128
+NARRE WARREN SOUTH,Narre Warren South,882
+NEWPORT,Newport,553
+NIDDRIE,Niddrie,259
+NOBLE PARK,Noble Park,932
+NOBLE PARK NORTH,Noble Park North,145
+NORTH MELBOURNE,North Melbourne,519
+NORTH WARRANDYTE,North Warrandyte,105
+NORTHCOTE,Northcote,988
+NOTTING HILL,Notting Hill,105
+NUNAWADING,Nunawading,399
+NUTFIELD,Nutfield,2
+OAK PARK,Oak Park,294
+OAKLANDS JUNCTION,Oaklands Junction,3
+OAKLEIGH,Oakleigh,224
+OAKLEIGH EAST,Oakleigh East,221
+OAKLEIGH SOUTH,Oakleigh South,302
+OFFICER,Officer,926
+OFFICER SOUTH,Officer South,14
+OLINDA,Olinda,64
+ORMOND,Ormond,311
+PAKENHAM,Pakenham,2620
+PAKENHAM SOUTH,Pakenham South,3
+PAKENHAM UPPER,Pakenham Upper,19
+PANTON HILL,Panton Hill,17
+PARK ORCHARDS,Park Orchards,95
+PARKDALE,Parkdale,476
+PARKVILLE,Parkville,145
+PASCOE VALE,Pascoe Vale,760
+PASCOE VALE SOUTH,Pascoe Vale South,302
+PATTERSON LAKES,Patterson Lakes,337
+PEARCEDALE,Pearcedale,100
+PLENTY,Plenty,51
+PLUMPTON,Plumpton,60
+POINT COOK,Point Cook,2118
+POINT LEO,Point Leo,2
+PORT MELBOURNE,Port Melbourne,885
+PORTSEA,Portsea,124
+POWELLTOWN,Powelltown,8
+PRAHRAN,Prahran,886
+PRESTON,Preston,1223
+PRINCES HILL,Princes Hill,3
+RED HILL,Red Hill,51
+RED HILL SOUTH,Red Hill South,10
+REEFTON,Reefton,4
+RESEARCH,Research,95
+RESERVOIR,Reservoir,1806
+RICHMOND,Richmond,1399
+RINGWOOD,Ringwood,820
+RINGWOOD EAST,Ringwood East,442
+RINGWOOD NORTH,Ringwood North,311
+RIPPONLEA,Ripponlea,56
+ROCKBANK,Rockbank,128
+ROSANNA,Rosanna,300
+ROSEBUD,Rosebud,1084
+ROWVILLE,Rowville,848
+ROXBURGH PARK,Roxburgh Park,570
+RYE,Rye,872
+RYTHDALE,Rythdale,1
+SAFETY BEACH,Safety Beach,471
+SANDHURST,Sandhurst,220
+SANDRINGHAM,Sandringham,483
+SASSAFRAS,Sassafras,37
+SCORESBY,Scoresby,153
+SEABROOK,Seabrook,153
+SEAFORD,Seaford,868
+SEAHOLME,Seaholme,71
+SEDDON,Seddon,250
+SELBY,Selby,57
+SEVILLE,Seville,72
+SEVILLE EAST,Seville East,29
+SHERBROOKE,Sherbrooke,12
+SHOREHAM,Shoreham,24
+SILVAN,Silvan,33
+SKYE,Skye,300
+SMITHS GULLY,Smiths Gully,8
+SOMERS,Somers,114
+SOMERVILLE,Somerville,451
+SORRENTO,Sorrento,283
+SOUTH KINGSVILLE,South Kingsville,124
+SOUTH MELBOURNE,South Melbourne,556
+SOUTH MORANG,South Morang,714
+SOUTH WHARF,South Wharf,1
+SOUTH YARRA,South Yarra,1297
+SOUTHBANK,Southbank,1189
+SPOTSWOOD,Spotswood,107
+SPRINGVALE,Springvale,399
+SPRINGVALE SOUTH,Springvale South,201
+ST ALBANS,St Albans,904
+ST ANDREWS,St Andrews,30
+ST ANDREWS BEACH,St Andrews Beach,66
+ST HELENA,St Helena,80
+ST KILDA,St Kilda,1233
+ST KILDA EAST,St Kilda East,673
+ST KILDA WEST,St Kilda West,160
+STEELS CREEK,Steels Creek,7
+STRATHEWEN,Strathewen,5
+STRATHMORE,Strathmore,333
+STRATHMORE HEIGHTS,Strathmore Heights,29
+STRATHTULLOH,Strathtulloh,42
+SUNBURY,Sunbury,1560
+SUNSHINE,Sunshine,337
+SUNSHINE NORTH,Sunshine North,309
+SUNSHINE WEST,Sunshine West,456
+SURREY HILLS,Surrey Hills,475
+SYDENHAM,Sydenham,293
+TARNEIT,Tarneit,1826
+TARRAWARRA,Tarrawarra,1
+TAYLORS HILL,Taylors Hill,323
+TAYLORS LAKES,Taylors Lakes,251
+TECOMA,Tecoma,73
+TEMPLESTOWE,Templestowe,518
+TEMPLESTOWE LOWER,Templestowe Lower,453
+THE BASIN,The Basin,120
+THE PATCH,The Patch,33
+THOMASTOWN,Thomastown,461
+THORNBURY,Thornbury,695
+THORNHILL PARK,Thornhill Park,112
+THREE BRIDGES,Three Bridges,5
+TOOLANGI,Toolangi,7
+TOOLERN VALE,Toolern Vale,14
+TOORADIN,Tooradin,36
+TOORAK,Toorak,682
+TOOTGAROOK,Tootgarook,228
+TRAVANCORE,Travancore,138
+TREMONT,Tremont,4
+TRUGANINA,Truganina,1053
+TUERONG,Tuerong,1
+TULLAMARINE,Tullamarine,227
+TYABB,Tyabb,109
+TYNONG,Tynong,12
+TYNONG NORTH,Tynong North,6
+UPPER FERNTREE GULLY,Upper Ferntree Gully,113
+UPWEY,Upwey,224
+VERMONT,Vermont,318
+VERMONT SOUTH,Vermont South,286
+VIEWBANK,Viewbank,191
+WANDIN EAST,Wandin East,7
+WANDIN NORTH,Wandin North,99
+WANTIRNA,Wantirna,381
+WANTIRNA SOUTH,Wantirna South,519
+WARBURTON,Warburton,103
+WARNEET,Warneet,32
+WARRANDYTE,Warrandyte,153
+WARRANDYTE SOUTH,Warrandyte South,18
+WARRANWOOD,Warranwood,119
+WATERWAYS,Waterways,47
+WATSONIA,Watsonia,211
+WATSONIA NORTH,Watsonia North,99
+WATSONS CREEK,Watsons Creek,2
+WATTLE GLEN,Wattle Glen,60
+WEIR VIEWS,Weir Views,102
+WERRIBEE,Werribee,1706
+WERRIBEE SOUTH,Werribee South,61
+WESBURN,Wesburn,26
+WEST FOOTSCRAY,West Footscray,477
+WEST MELBOURNE,West Melbourne,281
+WESTMEADOWS,Westmeadows,237
+WHEELERS HILL,Wheelers Hill,454
+WHITTLESEA,Whittlesea,253
+WILDWOOD,Wildwood,1
+WILLIAMS LANDING,Williams Landing,273
+WILLIAMSTOWN,Williamstown,586
+WILLIAMSTOWN NORTH,Williamstown North,17
+WINDSOR,Windsor,207
+WOLLERT,Wollert,1156
+WONGA PARK,Wonga Park,79
+WOODSTOCK,Woodstock,2
+WOORI YALLOCK,Woori Yallock,111
+WYNDHAM VALE,Wyndham Vale,783
+YALLAMBIE,Yallambie,91
+YAN YEAN,Yan Yean,6
+YANNATHAN,Yannathan,2
+YARRA GLEN,Yarra Glen,104
+YARRA JUNCTION,Yarra Junction,121
+YARRAMBAT,Yarrambat,32
+YARRAVILLE,Yarraville,630
+YELLINGBO,Yellingbo,10
+YERING,Yering,1
+YUROKE,Yuroke,1
