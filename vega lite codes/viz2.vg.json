@@ -1,0 +1,34 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Number of Houses Sold in Each State (Sep 2018 - Mar 2021)",
+    "width": 800,
+    "height": 600,
+    "projection": {"type": "equirectangular"},
+    "data": {
+        "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/aus_states_topojson.json",
+        "format": {"type": "topojson", "feature": "AUS_2016_AUST"}
+    },
+    "transform": [{
+        "lookup": "properties.STE_NAME16",
+        "from": {
+            "data": {
+                "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/houses_sold_state.csv"
+            },
+            "key": "state",
+            "fields": ["count"]
+        }
+    }
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+        "color": {
+            "field": "count",
+            "type": "quantitative"
+        },
+    "tooltip": [
+        {"field": "properties.STE_NAME16", "type": "nominal", "title": "State"},
+        {"field": "state", "type": "nominal"}
+    ]
+    },
+    "config": {}
+   }

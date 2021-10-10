@@ -1,0 +1,94 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Number of Houses Sold in Greater Melbourne(Sep 2018 - Mar 2021)",
+    "width": 700,
+    "height": 600,
+    "params": [
+      {
+        "name": "year_month_selection",
+        "value": 2019,
+        "bind":{
+          "input": "select",
+          "options": [2019, 2020],
+          "labels": ["Pre-Covid (2019)", "Post-Covid (2020)"],
+          "name": "Pre/Post Covid: "
+        }
+    },
+    {
+      "name": "zoom_level",
+      "value": 20000,
+      "bind":{
+        "input": "range",
+        "min": 20000,
+        "max": 60000,
+        "step": 100,
+        "name": "Zoom: "
+      }
+    }
+    ],
+    "projection": {
+      "type": "equirectangular", 
+      "center": [145.11, -38],
+      "scale":  30000
+    },
+
+    "layer":[
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/newVicSuburbs%20.topojson.json",
+            "format": {"type": "topojson", "feature": "newVicSuburbs"}
+        },
+          "transform": [
+            {"calculate": "'Data is not available in ' + datum.properties.vic_loca_2", "as": "note"}
+          ],
+          "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+          "encoding": {
+            "tooltip": {
+              "field": "note"
+            }
+          }
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/vic_suburb_year_sale_count.csv"
+        },
+          "transform": [{
+              "lookup": "SUBURB",
+              "from": {
+                  "data": {
+                      "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/newVicSuburbs%20.topojson.json",
+                      "format":{
+                        "type": "topojson",
+                        "feature": "newVicSuburbs"
+                      }
+                  },
+                  "key": "properties.vic_loca_2"
+              },
+              "as": "geo"
+          },
+          {"filter": "datum.year == year_month_selection"}
+          ],
+          "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+          "encoding": {
+          "shape": {"field": "geo", "type": "geojson"},
+            "color": {
+                "field": "n",
+                "type": "quantitative",
+                "title": "Properties sold",
+                "scale": {
+                  "domain":[
+                    1, 1000
+                  ]
+                }
+            },
+          "tooltip": [
+              {"field": "SUBURB", "type": "nominal", "title": "Suburb"},
+              {"field": "n", "type": "quantitative", "title":"No. of Houses sold"}
+              ]
+          }
+          
+        }
+      ],
+      "config": {}
+    
+   }

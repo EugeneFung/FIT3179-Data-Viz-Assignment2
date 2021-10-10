@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Types of properties sold in each state",
+    "height": 200,
+    "width": 500,
+    "params": [
+        {
+          "name": "year_selection",
+          "value": 2018,
+          "bind":{
+            "input": "range",
+            "min": 2018,
+            "max": 2021,
+            "step": 1,
+            "name": "Year: "
+          }
+      },
+      {
+        "name": "state_selection",
+        "value": "VIC",
+        "bind":{
+          "input": "select",
+          "options": ["ACT", "NSW", "QLD", "SA", "VIC", "WA"],
+          "labels": ["ACT", "NSW", "QLD", "SA", "VIC", "WA"],
+          "name": "State: "
+        }
+      }
+      ],
+    "data": {
+      "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_aus_property_type_count.csv"
+    },
+    "transform": [
+        {"filter": "datum.year == year_selection"},
+        {"filter": "datum.state == state_selection"}
+    ],
+    "encoding": {
+      "y": {"field": "property_type", "type": "nominal", "title": "Property Type"},
+      "x": {"field": "n", "type": "quantitative", "title": "Number Sold"},
+      "tooltip": [
+        {"field": "state", "type": "nominal", "title": "State"}, 
+        {"field": "n", "type": "quantitative", "title":"Number sold"}
+    ]
+    },
+    "layer": [{
+      "mark": "bar"
+    }, {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": {
+        "text": {"field": "n", "type": "quantitative"}
+      }
+    }]
+  }
+  
