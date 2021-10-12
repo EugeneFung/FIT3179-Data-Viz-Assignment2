@@ -1,0 +1,87 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": "Number of Houses Sold in Greater Melbourne",
+"width": 700,
+"height": 600,
+"params": [
+    {
+        "name": "year_month_selection",
+        "value": 2019,
+        "bind":{
+            "input": "select",
+            "options": [2019, 2020],
+            "labels": ["Pre-Covid (2019)", "Post-Covid (2020)"],
+            "name": "Pre/Post Covid: "
+        }
+    },
+    {
+        "name": "dataValue",
+        "value": "n",
+        "bind":{
+            "input": "select",
+            "options": ["n", "price_mean"],
+            "labels": ["Number of properties sold", "Mean Price"],
+            "name": "Data: "
+        } 
+    }
+],
+"projection": {
+    "type": "equirectangular"
+},
+
+"layer":[
+    {
+        "data": {
+        "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/STE_2016_AUST.json",
+        "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+    },
+        "transform": [
+        {"calculate": "'Data is not available in ' + datum.properties.STE_NAME16", "as": "note"}
+        ],
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+        "encoding": {
+        "tooltip": {
+            "field": "note"
+        }
+        }
+    },
+    {
+        "data": {
+        "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/datadf_aus_state_count_price.csv"
+    },
+        "transform": [{
+            "lookup": "STATE",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/STE_2016_AUST.json",
+                    "format":{
+                    "type": "topojson",
+                    "feature": "STE_2016_AUST"
+                    }
+                },
+                "key": "properties.STE_NAME16"
+            },
+            "as": "geo"
+        },
+        {"filter": "datum.year == year_month_selection"},
+        {"calculate": "datum[dataValue]", "as": "data"}
+        ],
+        "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+        "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+            "field": "data",
+            "type": "quantitative",
+            "title": "data"
+        },
+        "tooltip": [
+            {"field": "STATE", "type": "nominal", "title": "State"},
+            {"field": "data", "type": "quantitative", "title":"No. of Houses sold"}
+            ]
+        }
+        
+    }
+    ],
+    "config": {}
+
+}
