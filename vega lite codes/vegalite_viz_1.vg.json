@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Number of Houses Sold in Greater Melbourne(Sep 2018 - Mar 2021)",
+    "title": "Number of Houses Sold in Greater Melbourne",
     "width": 700,
     "height": 600,
     "params": [
@@ -29,7 +29,7 @@
     "projection": {
       "type": "equirectangular", 
       "center": [145.11, -38],
-      "scale":  30000
+      "scale":  {"expr": "zoom_level"}
     },
 
     "layer":[
