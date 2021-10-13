@@ -1,6 +1,6 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": "Number of Houses Sold in Greater Melbourne",
+"title": "Number of Houses Sold in Australia",
 "width": 700,
 "height": 600,
 "params": [

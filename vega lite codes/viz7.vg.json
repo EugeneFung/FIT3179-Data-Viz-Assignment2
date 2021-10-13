@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_vic_property_count_price.csv"},
+    "vconcat": [{
+        "width": 280,
+        "height": 160,
+        "title":"Number of properties sold",
+        "mark": "area",
+        "encoding": {
+        "x": {
+            "field": "Month_Yr",
+            "type": "ordinal"
+        },
+        "y": {"field": "n","type": "quantitative"},
+        "color": {
+        "field": "property_type"
+        }
+        }
+    }, {
+        "width": 280,
+        "height": 160,
+        "title": "Mean price",
+        "mark": {
+            "type": "line",
+            "point": true
+        },
+        "encoding": {
+            "x": {
+                "field": "Month_Yr",
+                "type": "ordinal"
+            },
+            "y": {"field": "price_mean", "type": "quantitative", "scale": {"domain": [400000, 1100000]}},
+            "color": {"field": "property_type", "type": "nominal"}
+          }
+    }]
+}
