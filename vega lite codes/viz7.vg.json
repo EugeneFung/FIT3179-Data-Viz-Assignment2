@@ -15,7 +15,7 @@
                 "labelAngle": -45
               }
         },
-        "y": {"field": "n","type": "quantitative"},
+        "y": {"field": "n","type": "quantitative", "title": "Count"},
         "color": {
         "field": "property_type"
         }
@@ -37,8 +37,8 @@
                     "labelAngle": -45
                   }
             },
-            "y": {"field": "price_mean", "type": "quantitative", "scale": {"domain": [400000, 1100000]}},
-            "color": {"field": "property_type", "type": "nominal"}
+            "y": {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)", "scale": {"domain": [400000, 1100000]}},
+            "color": {"field": "property_type", "type": "nominal", "scale":{"scheme":"greenblue"}}
           }
     }]
 }
