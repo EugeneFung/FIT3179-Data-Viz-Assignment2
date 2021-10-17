@@ -1,0 +1,93 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "width": 500,
+    "height": 260,
+    "title": "Property Sold",
+    "layer":[
+        
+        {
+            "data": {
+                "values": [
+                    {"Month_Yr": "2019-01", "n": 8000},
+                    {"Month_Yr": "2019-02", "n": 8000},
+                    {"Month_Yr": "2019-03", "n": 8000},
+                    {"Month_Yr": "2019-04", "n": 8000},
+                    {"Month_Yr": "2019-05", "n": 8000},
+                    {"Month_Yr": "2019-06", "n": 8000},
+                    {"Month_Yr": "2019-07", "n": 8000},
+                    {"Month_Yr": "2019-08", "n": 8000},
+                    {"Month_Yr": "2019-09", "n": 8000},
+                    {"Month_Yr": "2019-10", "n": 8000},
+                    {"Month_Yr": "2019-11", "n": 8000},
+                    {"Month_Yr": "2019-12", "n": 8000}
+
+                ]
+             },
+             "mark":"rect",
+            "encoding": {
+                "x": {
+                    "datum": "2019-01"
+                },
+                "y": {"field": "n", "type": "quantitative"},
+                "x2":{"datum": "2020-01"},
+                "color": {"value": "#EEE8AA"},
+                "opacity":{"value":0.04}
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {"Month_Yr": "2020-01", "n": 8000},
+                    {"Month_Yr": "2020-02", "n": 8000},
+                    {"Month_Yr": "2020-03", "n": 8000},
+                    {"Month_Yr": "2020-04", "n": 8000},
+                    {"Month_Yr": "2020-05", "n": 8000},
+                    {"Month_Yr": "2020-06", "n": 8000},
+                    {"Month_Yr": "2020-07", "n": 8000},
+                    {"Month_Yr": "2020-08", "n": 8000},
+                    {"Month_Yr": "2020-09", "n": 8000},
+                    {"Month_Yr": "2020-10", "n": 8000},
+                    {"Month_Yr": "2020-11", "n": 8000},
+                    {"Month_Yr": "2020-12", "n": 8000}
+
+                ]
+             },
+             "mark":"rect",
+            "encoding": {
+                "x": {
+                    "datum": "2020-01"
+                },
+                "y": {"field": "n", "type": "quantitative"},
+                "x2":{"datum": "2020-12"},
+                "color": {"value": "#FF6347"},
+                "opacity":{"value":0.04}
+            }
+        },
+        {
+            "data": {"url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_vic_property_count_price.csv"},
+            "mark": "area",
+        "encoding": {
+        "x": {
+            "field": "Month_Yr",
+            "type": "ordinal",
+            "title": "",
+            "axis": {
+                "labelAngle": -45
+              }
+        },
+        "y": {"field": "n","type": "quantitative", "title": "Count"},
+        "color": {
+        "field": "property_type",
+        "type": "nominal", "scale":{"scheme":"greenblue"}
+        },
+        "tooltip": [
+            {"field": "Month_Yr", "type": "ordinal", "title": "Year-Month"},
+            {"field": "property_type", "type": "nominal", "title": "Property Type"},
+            {"field": "n", "type": "quantitative","title":"Number sold"}
+        ]
+        }
+        }
+    ]
+    
+}

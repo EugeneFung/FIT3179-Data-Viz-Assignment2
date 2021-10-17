@@ -4,6 +4,27 @@
     "vconcat": [{
         "width": 480,
         "height": 260,
+        "title": "Mean price",
+        "mark": {
+            "type": "line"
+        },
+        "encoding": {
+            "x": {
+                "field": "Month_Yr",
+                "type": "ordinal",
+                "title": "",
+                "axis": {
+                    "labelAngle": -45
+                  }
+            },
+            "y": {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)", "scale": {"domain": [400000, 1100000]}},
+            "color": {"field": "property_type", "type": "nominal", "scale":{"scheme":"greenblue"}},
+            "strokeDash": {"field": "covid", "type": "nominal"}
+        }
+    },
+    {
+        "width": 480,
+        "height": 260,
         "title":"Number of properties sold",
         "mark": "area",
         "encoding": {
@@ -20,25 +41,6 @@
         "field": "property_type"
         }
         }
-    }, {
-        "width": 480,
-        "height": 260,
-        "title": "Mean price",
-        "mark": {
-            "type": "line",
-            "point": true
-        },
-        "encoding": {
-            "x": {
-                "field": "Month_Yr",
-                "type": "ordinal",
-                "title": "",
-                "axis": {
-                    "labelAngle": -45
-                  }
-            },
-            "y": {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)", "scale": {"domain": [400000, 1100000]}},
-            "color": {"field": "property_type", "type": "nominal", "scale":{"scheme":"greenblue"}}
-          }
-    }]
+    }
+    ]
 }

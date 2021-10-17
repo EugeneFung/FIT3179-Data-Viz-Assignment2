@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A population pyramid for the US in 2000.",
+    "data": { "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/datadf_aus_state_count_price.csv"},
+    "params": [
+        {
+            "name": "year_month_selection",
+            "value": 2019,
+            "bind":{
+                "input": "select",
+                "options": [2019, 2020],
+                "labels": ["Pre-Covid (2019)", "Post-Covid (2020)"],
+                "name": "Pre/Post Covid: "
+            }
+        }
+    ],
+    "spacing": 0,
+    "hconcat": [{
+        "transform": [
+            {"filter": "datum.year == year_month_selection"}
+        ],
+      "title": "Houses Sold",
+      "mark": "bar",
+      "width": 300,
+      "height": 200,
+      "encoding": {
+        "y": {
+          "field": "state", "axis": null
+        },
+        "x": {
+          "field": "n",
+          "type": "quantitative",
+          "sort": "descending",
+          "title": null
+        },
+        "color":{"field": "state","scale":{"scheme":"greenblue"}},
+        "tooltip": [
+            {"field": "STATE", "type": "nominal", "title": "State"},
+            {"field": "n", "type": "quantitative", "title":"No. of Houses sold"}
+        ]
+      }
+    }, {
+      "width": 20,
+      "height": 200,
+      "view": {"stroke": null},
+      "mark": {
+        "type": "text",
+        "align": "center"
+      },
+      "encoding": {
+        "y": {"field": "state", "type": "nominal", "axis": null},
+        "text": {"field": "state", "type": "nominal"}
+      }
+    }, {
+      "transform": [{
+        "filter": "datum.year == year_month_selection"
+      }],
+      "title": "Mean Price",
+      "width": 300,
+      "height": 200,
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "state", "title": null,
+          "axis": null
+        },
+        "x": {
+          "field": "price_mean",
+          "type": "quantitative",
+          "title": null
+        },
+        "color":{"field": "state", "type": "nominal","scale":{"scheme": "bluegreen"}},
+        "tooltip": [
+            {"field": "STATE", "type": "nominal", "title": "State"},
+            {"field": "price_mean", "type": "quantitative", "title":"Mean price ($)"}
+        ]
+      }
+    }],
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false}
+    }
+  }
+  

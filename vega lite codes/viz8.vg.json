@@ -1,129 +1,93 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "hconcat": [
-      {"title": "Number of Houses Sold in Greater Melbourne",
-        "width": 350,
-        "height": 250,
-        "params": [
-          {
-            "name": "year_month_selection",
-            "value": 2019,
-            "bind":{
-              "input": "select",
-              "options": [2019, 2020],
-              "labels": ["Pre-Covid (2019)", "Post-Covid (2020)"],
-              "name": "Pre/Post Covid: "
+    
+    "width": 500,
+    "height": 260,
+    "title": "Mean price",
+    "layer":[
+        
+        {
+            "data": {
+                "values": [
+                    {"Month_Yr": "2019-01", "price_mean": 1100000},
+                    {"Month_Yr": "2019-02", "price_mean": 1100000},
+                    {"Month_Yr": "2019-03", "price_mean": 1100000},
+                    {"Month_Yr": "2019-04", "price_mean": 1100000},
+                    {"Month_Yr": "2019-05", "price_mean": 1100000},
+                    {"Month_Yr": "2019-06", "price_mean": 1100000},
+                    {"Month_Yr": "2019-07", "price_mean": 1100000},
+                    {"Month_Yr": "2019-08", "price_mean": 1100000},
+                    {"Month_Yr": "2019-09", "price_mean": 1100000},
+                    {"Month_Yr": "2019-10", "price_mean": 1100000},
+                    {"Month_Yr": "2019-11", "price_mean": 1100000},
+                    {"Month_Yr": "2019-12", "price_mean": 1100000}
+
+                ]
+             },
+             "mark":"rect",
+            "encoding": {
+                "x": {
+                    "datum": "2019-01"
+                },
+                "y": {"field": "price_mean", "type": "quantitative", "scale": {"domain": [400000, 1100000]}},
+                "x2":{"datum": "2020-01"},
+                "color": {"value": "#EEE8AA"},
+                "opacity":{"value":0.04}
             }
         },
         {
-          "name": "zoom_level",
-          "value": 20000,
-          "bind":{
-            "input": "range",
-            "min": 20000,
-            "max": 60000,
-            "step": 100,
-            "name": "Zoom: "
-          }
-        }
-        ],
-        "projection": {
-          "type": "equirectangular", 
-          "center": [145.11, -38],
-          "scale":  {"expr": "zoom_level"}
-        },
-    
-        "layer":[
-            {
-              "data": {
-                "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/newVicSuburbs%20.topojson.json",
-                "format": {"type": "topojson", "feature": "newVicSuburbs"}
-            },
-              "transform": [
-                {"calculate": "'Data is not available in ' + datum.properties.vic_loca_2", "as": "note"}
-              ],
-              "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
-              "encoding": {
-                "tooltip": {
-                  "field": "note"
-                }
-              }
-            },
-            {
-              "data": {
-                "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/vic_suburb_year_sale_count.csv"
-            },
-              "transform": [{
-                  "lookup": "SUBURB",
-                  "from": {
-                      "data": {
-                          "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/js/newVicSuburbs%20.topojson.json",
-                          "format":{
-                            "type": "topojson",
-                            "feature": "newVicSuburbs"
-                          }
-                      },
-                      "key": "properties.vic_loca_2"
-                  },
-                  "as": "geo"
-              },
-              {"filter": "datum.year == year_month_selection"}
-              ],
-              "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
-              "encoding": {
-              "shape": {"field": "geo", "type": "geojson"},
-                "color": {
-                    "field": "n",
-                    "type": "quantitative",
-                    "title": "Properties sold",
-                    "scale": {
-                      "domain":[
-                        1, 1000
-                      ]
-                    }
-                },
-              "tooltip": [
-                  {"field": "SUBURB", "type": "nominal", "title": "Suburb"},
-                  {"field": "n", "type": "quantitative", "title":"No. of Houses sold"}
-                  ]
-              }
-              
-            }
-          ],
-          "config": {}},
-      {
-        "data": {"url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_vic_property_count_price.csv"},
-        "vconcat": [{
-            "width": 480,
-            "title":"Number of properties sold",
-            "mark": "area",
+            "data": {
+                "values": [
+                    {"Month_Yr": "2020-01", "price_mean": 1100000},
+                    {"Month_Yr": "2020-02", "price_mean": 1100000},
+                    {"Month_Yr": "2020-03", "price_mean": 1100000},
+                    {"Month_Yr": "2020-04", "price_mean": 1100000},
+                    {"Month_Yr": "2020-05", "price_mean": 1100000},
+                    {"Month_Yr": "2020-06", "price_mean": 1100000},
+                    {"Month_Yr": "2020-07", "price_mean": 1100000},
+                    {"Month_Yr": "2020-08", "price_mean": 1100000},
+                    {"Month_Yr": "2020-09", "price_mean": 1100000},
+                    {"Month_Yr": "2020-10", "price_mean": 1100000},
+                    {"Month_Yr": "2020-11", "price_mean": 1100000},
+                    {"Month_Yr": "2020-12", "price_mean": 1100000}
+
+                ]
+             },
+             "mark":"rect",
             "encoding": {
-            "x": {
-                "field": "Month_Yr",
-                "type": "ordinal"
-            },
-            "y": {"field": "n","type": "quantitative"},
-            "color": {
-            "field": "property_type"
+                "x": {
+                    "datum": "2020-01"
+                },
+                "y": {"field": "price_mean", "type": "quantitative", "scale": {"domain": [400000, 1100000]}},
+                "x2":{"datum": "2020-12"},
+                "color": {"value": "#FF6347"},
+                "opacity":{"value":0.04}
             }
-            }
-        }, {
-            "width": 480,
-            "height": 260,
-            "title": "Mean price",
+        },
+        {
+            "data": {"url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_vic_property_count_price.csv"},
             "mark": {
                 "type": "line",
-                "point": true
+                "point":true
             },
             "encoding": {
                 "x": {
                     "field": "Month_Yr",
-                    "type": "ordinal"
+                    "type": "ordinal",
+                    "title": "",
+                    "axis": {
+                        "labelAngle": -45
+                        }
                 },
-                "y": {"field": "price_mean", "type": "quantitative", "scale": {"domain": [400000, 1100000]}},
-                "color": {"field": "property_type", "type": "nominal"}
-              }
-        }]}
+                "y": {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)", "scale": {"domain": [400000, 1100000]}},
+                "color": {"field": "property_type", "type": "nominal", "scale":{"scheme":"greenblue"}},
+                "tooltip": [
+                    {"field": "Month_Yr", "type": "ordinal", "title": "Year-Month"},
+                    {"field": "property_type", "type": "nominal"},
+                    {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)"}
+                ]
+            }
+        }
     ]
     
-  }
+}
