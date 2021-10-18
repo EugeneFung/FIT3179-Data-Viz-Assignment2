@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Number of Houses Sold in Melbourne",
-    "width": 550,
-    "height": 350,
+    "title": "",
+    "width": 890,
+    "height": 550,
     "params": [
       {
         "name": "year_month_selection",
@@ -26,19 +26,36 @@
     },
     {
       "name": "zoom_level",
-      "value": 20000,
+      "value": 25000,
       "bind":{
         "input": "range",
-        "min": 15000,
+        "min": 20000,
         "max": 60000,
         "step": 100,
         "name": "Zoom: "
+      }
+    },
+    {
+      "name": "move_map",
+      "value": [145.11, -38],
+      "bind": {
+        "input": "select",
+        "options": [
+          [145.11, -38],
+          [145.11, -37.7],
+          [145.11, -38.3],
+          [144.85, -37.8],
+          [145.7, -38]
+        ],
+        "labels": ["Center", "Up", "Down", "Left", "Right"],
+        "name": "Move Map: "
+        
       }
     }
     ],
     "projection": {
       "type": "equirectangular", 
-      "center": [145.11, -38],
+      "center": {"expr": "move_map"},
       "scale":  {"expr": "zoom_level"}
       
     },

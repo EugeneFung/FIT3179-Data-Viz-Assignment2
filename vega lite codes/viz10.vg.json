@@ -22,10 +22,10 @@
       "title": "Houses Sold",
       "mark": "bar",
       "width": 325,
-      "height": 200,
+      "height": 220,
       "encoding": {
         "y": {
-          "field": "state", "axis": null
+          "field": "city", "axis": null
         },
         "x": {
           "field": "n",
@@ -33,23 +33,23 @@
           "sort": "descending",
           "title": null
         },
-        "color":{"field": "state","scale":{"scheme":"greenblue"}, "legend":null},
+        "color":{"field": "city","scale":{"scheme":"greenblue"}, "legend":null},
         "tooltip": [
-            {"field": "STATE", "type": "nominal", "title": "State"},
+            {"field": "city", "type": "nominal", "title": "City"},
             {"field": "n", "type": "quantitative", "title":"No. of Houses sold"}
         ]
       }
     }, {
       "width": 20,
-      "height": 200,
+      "height": 220,
       "view": {"stroke": null},
       "mark": {
         "type": "text",
         "align": "center"
       },
       "encoding": {
-        "y": {"field": "state", "type": "nominal", "axis": null},
-        "text": {"field": "state", "type": "nominal"}
+        "y": {"field": "city", "type": "nominal", "axis": null},
+        "text": {"field": "city", "type": "nominal"}
       }
     }, {
       "transform": [{
@@ -57,11 +57,11 @@
       }],
       "title": "Mean Price",
       "width": 325,
-      "height": 200,
+      "height": 220,
       "mark": "bar",
       "encoding": {
         "y": {
-          "field": "state", "title": null,
+          "field": "city", "title": null,
           "axis": null
         },
         "x": {
@@ -69,9 +69,9 @@
           "type": "quantitative",
           "title": null
         },
-        "color":{"field": "state", "type": "nominal","scale":{"scheme": "bluegreen"}},
+        "color":{"field": "city", "type": "nominal","scale":{"scheme": "bluegreen"}},
         "tooltip": [
-            {"field": "STATE", "type": "nominal", "title": "State"},
+            {"field": "city", "type": "nominal", "title": "city"},
             {"field": "price_mean", "type": "quantitative", "title":"Mean price ($)", "format":".0f"}
         ]
       }
