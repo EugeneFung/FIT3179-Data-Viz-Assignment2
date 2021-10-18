@@ -21,7 +21,7 @@
         ],
       "title": "Houses Sold",
       "mark": "bar",
-      "width": 300,
+      "width": 325,
       "height": 200,
       "encoding": {
         "y": {
@@ -33,7 +33,7 @@
           "sort": "descending",
           "title": null
         },
-        "color":{"field": "state","scale":{"scheme":"greenblue"}},
+        "color":{"field": "state","scale":{"scheme":"greenblue"}, "legend":null},
         "tooltip": [
             {"field": "STATE", "type": "nominal", "title": "State"},
             {"field": "n", "type": "quantitative", "title":"No. of Houses sold"}
@@ -56,7 +56,7 @@
         "filter": "datum.year == year_month_selection"
       }],
       "title": "Mean Price",
-      "width": 300,
+      "width": 325,
       "height": 200,
       "mark": "bar",
       "encoding": {
@@ -72,7 +72,7 @@
         "color":{"field": "state", "type": "nominal","scale":{"scheme": "bluegreen"}},
         "tooltip": [
             {"field": "STATE", "type": "nominal", "title": "State"},
-            {"field": "price_mean", "type": "quantitative", "title":"Mean price ($)"}
+            {"field": "price_mean", "type": "quantitative", "title":"Mean price ($)", "format":".0f"}
         ]
       }
     }],

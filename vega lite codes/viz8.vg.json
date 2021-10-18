@@ -80,11 +80,11 @@
                         }
                 },
                 "y": {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)", "scale": {"domain": [400000, 1100000]}},
-                "color": {"field": "property_type", "type": "nominal", "scale":{"scheme":"greenblue"}},
+                "color": {"field": "property_type", "type": "nominal", "scale":{"scheme":"greenblue"}, "title": "Property Type"},
                 "tooltip": [
                     {"field": "Month_Yr", "type": "ordinal", "title": "Year-Month"},
-                    {"field": "property_type", "type": "nominal"},
-                    {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)"}
+                    {"field": "property_type", "type": "nominal", "title": "Property Type"},
+                    {"field": "price_mean", "type": "quantitative","title":"Mean Price ($)","format":".0f"}
                 ]
             }
         }

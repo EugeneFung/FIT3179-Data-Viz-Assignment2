@@ -15,6 +15,16 @@
         }
     },
     {
+        "name": "dataValue",
+        "value": "n",
+        "bind":{
+            "input": "select",
+            "options": ["n", "price_mean"],
+            "labels": ["Number of Properties Sold", "Mean Price of Properties"],
+            "name": "Data: "
+        } 
+    },
+    {
       "name": "zoom_level",
       "value": 20000,
       "bind":{
@@ -51,7 +61,7 @@
         },
         {
           "data": {
-            "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/vic_suburb_year_sale_count.csv"
+            "url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_vic_sub_count_price.csv"
         },
           "transform": [{
               "lookup": "SUBURB",
@@ -67,24 +77,20 @@
               },
               "as": "geo"
           },
-          {"filter": "datum.year == year_month_selection"}
+          {"filter": "datum.year == year_month_selection"},
+          {"calculate": "datum[dataValue]", "as": "data"}
           ],
           "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
           "encoding": {
           "shape": {"field": "geo", "type": "geojson"},
             "color": {
-                "field": "n",
+                "field": "data",
                 "type": "quantitative",
-                "title": "Properties sold",
-                "scale": {
-                  "domain":[
-                    1, 1000
-                  ]
-                }
+                "title": "Properties sold"
             },
           "tooltip": [
-              {"field": "SUBURB", "type": "nominal", "title": "Suburb"},
-              {"field": "n", "type": "quantitative", "title":"No. of Houses sold"}
+              {"field": "suburb", "type": "nominal", "title": "Suburb"},
+              {"field": "data", "type": "quantitative", "title":"Data", "format":".0f"}
               ]
           }
           

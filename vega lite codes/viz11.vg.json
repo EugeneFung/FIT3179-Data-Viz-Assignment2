@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/EugeneFung/FIT3179-Data-Viz-Assignment2/main/data/df_vic_sub_count_price.csv"},
+    "height": 200,
+    "width": 550,
+    "params": [
+        {
+            "name": "year_month_selection",
+            "value": 2019,
+            "bind":{
+              "input": "select",
+              "options": [2019, 2020],
+              "labels": ["Pre-Covid (2019)", "Post-Covid (2020)"],
+              "name": "Pre/Post Covid: "
+            }
+        }
+    ],
+    "transform": [
+      {"filter": "datum.year == year_month_selection"}
+    ],
+    "layer": [
+        {
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "suburb",
+              "type": "nominal",
+              "axis":null,
+              "sort":{"field": "price_mean", "order":"descending"}
+    
+            },
+            "y": {
+              "field": "price_mean",
+              "type": "quantitative"
+            },
+            "tooltip":[
+                {"field":"suburb", "type": "nominal", "title": "Suburb"},
+                {"field": "price_mean", "type": "quantitative", "title":"Mean Price"}
+            ]
+          }
+        },
+        {
+          "mark": "rule",
+          "encoding": {
+            "y": {
+              "aggregate": "mean",
+              "field": "price_mean",
+              "type": "quantitative"
+            },
+            "color": {"value": "red"},
+            "size": {"value": 1}
+          }
+        }
+      ]
+  }
+  

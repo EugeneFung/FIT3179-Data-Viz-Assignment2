@@ -79,7 +79,7 @@
         "y": {"field": "n","type": "quantitative", "title": "Count"},
         "color": {
         "field": "property_type",
-        "type": "nominal", "scale":{"scheme":"greenblue"}
+        "type": "nominal", "scale":{"scheme":"greenblue"}, "title": "Property Type"
         },
         "tooltip": [
             {"field": "Month_Yr", "type": "ordinal", "title": "Year-Month"},
